@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>
+    Formulário para contato
+    </h1>
+
+    <form action="https://formsubmit.co/marcus.amoglia7@gmail.com" method="POST">
+        <p><b>Nome:</b><input type="text" name="name" required></p>
+        <p><b>Telefone:</b><input type="number" name="phone" required></p>
+        <p><b>E-Mail:</b><input type="email" name="email" required></p>
+        
+        <p><input type="radio" name="opcao" value="empresa" id="empresa"><b>Empresa</b></p>
+        <p><input type="radio" name="opcao" value="pessoa_fisica" id="pessoa_fisica"><b>Pessoa física</b></p>
+        
+        <p><b>Mensagem:</b></p>
+        <textarea name="message" id="message" cols="100" rows="10" required></textarea>
+
+        <input type="hidden" name="_next" value="https://MarcusAmoglia.github.io/Portif-lio/obrigado.html">
+        
+        <p><button type="submit" style="width: 100px; height:50px; font-size: medium;">Enviar</button></p>
+      
+
+
+    </form>
+</body>
+</html>
